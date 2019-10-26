@@ -1,5 +1,5 @@
-var msql = require("mysql");
-var inquirer = ("inquirer");
+var mysql = require("mysql");
+var inquirer = "inquirer";
 var table = require("cli-table2");
 
 var connection = mysql.createConnection({
@@ -21,4 +21,17 @@ var display = function () {
         console.log("Find your product review:");
         console.log("");
     });
-};
+    var Table = require('cli-table2');
+
+    // instantiate
+    var table = new Table({
+        head: ['TH 1 label', 'TH 2 label']
+        , colWidths: [100, 200]
+    });
+    for (var i = 0;  i < res.length; i ++){
+        table.push ([res[i].id, res[i].products_name, res[i].price]);
+    }
+        console.log(tabel.toString());
+        console.log("");
+    };
+    display();
