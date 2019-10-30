@@ -1,0 +1,30 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "## Overview",
+  "main": "customer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vipergts12/Bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vipergts12/Bamazon/issues"
+  },
+  "homepage": "https://github.com/vipergts12/Bamazon#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "cli-table2": "^0.2.0",
+    "inquirer": "^7.0.0",
+    "msql": "^1.0.3"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "nodemon": "^1.19.4",
+    "npm": "^6.12.1"
+  }
+}
